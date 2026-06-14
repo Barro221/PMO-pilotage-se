@@ -1,37 +1,23 @@
 # PMO-pilotage-se
 Outil Excel PMO complet : 17 onglets interconnectés, EVM (IPC/IPE/EAC), Risques, SMARTIES, 6 graphiques dynamiques. Gratuit pour les projets de développement.
 PMO_Pilotage_Modernise.xlsx
-│
-├── 🏠 MENU fr              → Hub de navigation avec KPI temps réel (IPC · IPE · EAC)
-├── 📖 <-HOME->             → Guide d'utilisation + statut global
-│
-├── 📋 0. Profil            → [INPUT] Informations projet, budget, responsable
-│                              ↳ Alimente automatiquement TOUS les onglets
-│
-├── 🌍 1. Environment       → Analyse PESTEL
-├── 👥 2. Stakeholders      → Analyse parties prenantes + stratégie
-├── 🗂️  3. Logical Framework → Cadre Logique (MCL) — Impact / Effet / Extrants / Intrants
-├── ❓  4. Performance Q.   → Questions de performance par niveau de résultats
-│
-├── ⚠️  5. Risks Analysis   → [INPUT] Registre risques + Matrice scoring + RADAR
-│                              ↳ Synthèse → Dashboard (onglet 13)
-│
-├── 📊 6. Indicators Sel.   → [INPUT] Grille SMARTIES + RADAR maturité indicateurs
-├── 📈 7. Efficacy Ind.     → Indicateurs d'efficacité et efficience
-├── 📄 8. Indicators Files  → Fiches détaillées (baseline · cibles · sources)
-│
-├── 📅 9. Indicators Cal.   → [INPUT] Cibles trimestrielles Q1–Q4 × 5 ans + Réels
-│                              ↳ Calcul automatique des déviations + Graphe évolution
-│
-├── 🗃️  10. Data Collection  → Plan de collecte de données
-├── 🔍 11. M&E Matrix       → Matrice S&E — besoins informationnels parties prenantes
-│
-├── 💰 12. Disbursement M.  → [INPUT] CBTP · CRTE · CRTR par composante
-│                              ↳ Variances auto · Courbe en S · Histogramme
-│                              ↳ Alimente → Dashboard (IPC · IPE · EAC)
-│
-├── 🎯 13. Dashboard        → COCKPIT — 12 indicateurs EVM + radars + statuts 🟢🟡🔴
-│
-├── 📝 14. Status Report    → Rapport d'avancement — IPC/IPE liés au Dashboard
-├── 🏆 15. Eval. Matrix     → Matrice évaluation critères DAC
-└── 🛒 16. Procurement Plan → Plan de passation des marchés
+## ✨ Nouveautés de la v2.0
+   ### Graphiques dynamiques ajoutés
+   - 📈 Courbe en S (CBTP Cumulé vs CRTR Réel)
+   - 🔴 Radar Risques par catégorie (7 dimensions)
+   - 🔷 Radar SMARTIES — Maturité des indicateurs vs cible 5/5
+   - 📉 Graphe Évolution 5 ans — Cible vs Réel (Impact · Effet · Extrants)
+
+   ### Formules & automatisation
+   - 290 formules interconnectées (0 erreur validée)
+   - 8 plages nommées (BudgetTotal, IPC_CPI, IPE_SPI…)
+   - Données de démonstration pré-remplies pour test immédiat
+
+   ### Design & MFC
+   - Mise en forme conditionnelle sur IPC/IPE/VAC/TCPI
+   - Barres de données cyan sur % budget consommé
+   - Alertes automatiques 🟢🟡🔴 sur le rapport d'avancement
+
+   ## 📥 Fichiers inclus
+   - `PMO_Pilotage_Modernise.xlsx` — Outil principal
+   - `Carousel_PMO_LinkedIn.pptx` — Présentation 9 slides
